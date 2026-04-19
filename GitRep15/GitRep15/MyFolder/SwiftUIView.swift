@@ -9,7 +9,12 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Text("This is mu branch hhhhh")
+        VStack(spacing: 20) {
+            Text("This is mu branch hhhhh")
+            
+            Text("This is test to PR 2")
+                .font(.title).bold()
+        }
     }
 }
 
