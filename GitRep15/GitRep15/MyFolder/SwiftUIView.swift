@@ -14,6 +14,9 @@ struct SwiftUIView: View {
             
             Text("This is test to PR 2")
                 .font(.title).bold()
+            
+            Text("This is test to PR 3 >>>")
+                .font(.title).bold()
         }
     }
 }
